@@ -85,22 +85,3 @@
 @keyframes orbitTurn{from{rotate:0deg}to{rotate:360deg}}
 @media(max-width:720px){.photo-art{min-height:475px}.photo-frame{width:min(300px,76%);height:385px}.visual-card-top{right:-1%;top:7%;width:145px;padding:11px}.visual-card-bottom{left:-1%;bottom:8%;padding:10px}.visual-orbit-one{width:300px;height:300px;top:16%}.visual-orbit-two{width:275px;height:370px;top:9%}}
 @media(prefers-reduced-motion:reduce){.visual-card,.visual-orbit,.visual-bars i{animation:none!important}}
-.logo {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-text-decoration: none;
-line-height: 1.2;
-}
-
-.logo span {
-font-size: 24px;
-font-weight: 700;
-}
-
-.logo small {
-font-size: 12px;
-font-weight: 500;
-letter-spacing: 2px;
-margin-top: 4px;
-}
